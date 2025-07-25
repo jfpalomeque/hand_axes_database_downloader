@@ -24,5 +24,8 @@ At the same time, offers the downloaded data as a csv file, making easier its us
 
 ## ⚠️ Disclaimer
 
-This tool is intended for educational and research purposes only. Please respect the [ADS Terms and Conditions](https://archaeologydataservice.ac.uk/about/termsOfUse.xhtml) when using the downloaded data.
+This tool is intended for educational and research purposes only. Please respect the [ADS Terms of Use and Access](https://archaeologydataservice.ac.uk/about/policies/use-access-to-data/ads-terms-of-use-and-access/) when using the downloaded data.
 
+⚖️ **Responsible Data Sharing**  
+This script and its output (e.g., CSV files) are intended to make publicly available archaeological data more accessible for analysis, in full accordance with the [ADS Terms of Use and Access](https://archaeologydataservice.ac.uk/about/policies/use-access-to-data/ads-terms-of-use-and-access/).  
+Redistribution is strictly non-commercial and for research, learning, and teaching purposes only, with full attribution to the original creators and the ADS.
