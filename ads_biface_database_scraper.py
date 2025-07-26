@@ -1,3 +1,15 @@
+"""
+ads_biface_database_scraper.py
+
+Summary:
+    This script scrapes biface artifact records from the Archaeology Data Service (ADS) online database.
+    For each record ID, it downloads the artifact's metadata and associated images (front, side, rear views),
+    saving the data to a CSV file and images to a local directory. The script includes logging, error handling,
+    and periodic saving of progress to ensure robustness during long scraping sessions.
+
+Author: jfpalomeque
+Year: 2025
+"""
 import os
 import requests
 import time
@@ -42,18 +54,6 @@ def extract_fields_from_html(html_content):
             key = cells[0].get_text(strip=True).replace(":", "")
             value = cells[1].get_text(strip=True)
             record[key] = value
-            
-    title_element = soup.select_one("div#archiveheader h2")
-    if title_element:
-        record["Collection Title"] = title_element.get_text(strip=True)
-        
-    authors_element = soup.select_one("div#archiveheader h4")
-    if authors_element:
-        record["Authors and DOI"] = authors_element.get_text(strip=True)
-        
-    contact_element = soup.select_one("div#metadata h3:contains('Primary contact') + p")
-    if contact_element:
-        record["Primary Contact"] = contact_element.get_text(separator=' ', strip=True)
         
     return record
 
