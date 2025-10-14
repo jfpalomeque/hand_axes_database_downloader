@@ -2,7 +2,8 @@
 ads_biface_database_scraper.py
 
 Summary:
-    This script scrapes biface artifact records from the Archaeology Data Service (ADS) online database.
+    This script scrapes biface artifact records from https://archaeologydataservice.ac.uk/archives/view/bifaces (Lower Palaeolithic technology, raw material and population ecology (bifaces)
+Gilbert Marshall, David Dupplaw, Derek Roe, Clive Gamble, 2002. https://doi.org/10.5284/1000354).
     For each record ID, it downloads the artifact's metadata and associated images (front, side, rear views),
     saving the data to a CSV file and images to a local directory. The script includes logging, error handling,
     and periodic saving of progress to ensure robustness during long scraping sessions.
