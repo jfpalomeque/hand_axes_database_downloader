@@ -56,6 +56,8 @@ top
 
 This visual and metric database is the data component of a project funded by a major grant from the Arts and Humanities Research Board between 1999 and 2001 (Grant number AN5347/APN8525). The project was designed to examine Lower Palaeolithic technology and raw material and to use the findings to discuss aspects of population ecology during the period. The time range is from 1.5Myr to 300Kyr and includes material from Africa, Europe and the Near East. The database contains 10668 digitised images of 3556 bifaces, as well as information on provenience, raw material and standard measurements.
 
+For each artifact, three images were taken, front, side and rear.
+
 top
 
 #### 1.2 How to refer to the database in publications
