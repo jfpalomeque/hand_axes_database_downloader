@@ -10,7 +10,12 @@ wheels/
 .venv
 .vscode
 .python-version
+
+#  Other files and directories
+.env
+.venv/
 pyproject.toml
 uv.lock
 logs
+images/
 

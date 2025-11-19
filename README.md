@@ -10,6 +10,22 @@ If you use this data, please cite the original source:
 *Gilbert Marshall, David Dupplaw, Derek Roe, Clive Gamble (2002)*  
 DOI: [10.5284/1000354](https://doi.org/10.5284/1000354)
 
+## How to use it?
+Install dependencies using pip:
+``` bash
+pip install -r requirements.txt
+```
+Then, run the script using Python: 
+
+``` bash
+python ads_biface_database_scraper.py
+```
+
+All images will be downloaded into the `images/` folder, and a `bifaces_records_online.csv` file will be created with all the artifacts details.
+
+## About the original dataset
+A copy of the overview of the dataset can be found [here](https://archaeologydataservice.ac.uk/archives/view/bifaces/overview.cfm), but an additional copy in markdown format is also included in this repository for reference: [DB_overview.md](DB_overview.md).
+
 ## 💡 Why Bulk Download?
 
 While the ADS plays a vital role in archiving and preserving archaeological data, access to this particular dataset is currently limited to individual record viewing through a web interface. This can pose challenges for researchers who wish to:
