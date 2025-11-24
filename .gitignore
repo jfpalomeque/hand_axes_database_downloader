@@ -14,6 +14,7 @@ wheels/
 #  Other files and directories
 .env
 .venv/
+biface_records_online.csv
 pyproject.toml
 uv.lock
 logs
