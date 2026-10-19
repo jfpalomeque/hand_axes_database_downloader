@@ -8,7 +8,7 @@ Gilbert Marshall, David Dupplaw, Derek Roe, Clive Gamble, 2002. https://doi.org/
     saving the data to a CSV file and images to a local directory. The script includes logging, error handling,
     and periodic saving of progress to ensure robustness during long scraping sessions.
 
-Author: jfpalomeque
+Author: Juan Francisco Palomeque-Gonzalez
 Year: 2025
 """
 import os
@@ -66,7 +66,7 @@ def download_image(id_, view_suffix):
         logging.info(f"Skipped image (already exists): {filename}")
         return
 
-    img_url = f"http://archaeologydataservice.ac.uk/catalogue/adsdata/arch-349-1/dissemination/jpg/{filename}"
+    img_url = f"https://archaeologydataservice.ac.uk/catalogue/adsdata/arch-349-1/dissemination/jpg/{filename}"
 
     for attempt in range(1, MAX_RETRIES + 1):
         try:
